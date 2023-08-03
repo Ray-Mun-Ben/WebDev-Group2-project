@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu & Order Form</title>
+  <link rel="stylesheet" href="menustyles.css">
+</head>
+<body>
+  <header>
+        <nav>
+        <ul class="left-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Menu.html">Menu</a></li>
+          <li><a href="Customize.html">Customize</a></li>
+        </ul>
+        <ul class="right-nav">
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Signup</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <h1>Menu</h1>
+        <form id="orderForm">
+          <section>
+            <h2>Breakfast</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="item" value="Pancakes">
+                <label>Pancakes</label>
+                <span>$5.99</span>
+              </li>
+              <li>
+                <input type="checkbox" name="item" value="Omelette">
+                <label>Omelette</label>
+                <span>$7.99</span>
+              </li>
+              <!-- Add more breakfast items here -->
+            </ul>
+          </section>
+    
+          <section>
+            <h2>Lunch</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="item" value="Burger">
+                <label>Burger</label>
+                <span>$9.99</span>
+              </li>
+              <li>
+                <input type="checkbox" name="item" value="Salad">
+                <label>Salad</label>
+                <span>$6.99</span>
+              </li>
+              <!-- Add more lunch items here -->
+            </ul>
+          </section>
+    
+          <section>
+            <h2>Beverages</h2>
+            <ul>
+              <li>
+                <input type="checkbox" name="item" value="Coffee">
+                <label>Coffee</label>
+                <span>$2.49</span>
+              </li>
+              <li>
+                <input type="checkbox" name="item" value="Tea">
+                <label>Tea</label>
+                <span>$1.99</span>
+              </li>
+              <!-- Add more beverage items here -->
+            </ul>
+          </section>
+    
+          <button type="button" id="calculateTotal">Calculate Total</button>
+          <div id="totalPrice">Total Price: $0.00</div>
+        </form>
+      </main>
+      <script src="menujavascript.js"></script>
+</body>
+</html>

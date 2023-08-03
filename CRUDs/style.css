@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.coolbtn {
+    background-color: #170d70;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.coolbtn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.coolbtn:hover {
+    background-color: #070b3b;
+}
+
+.table {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: #170d70;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.coolbutton1, .coolbutton2 {
+    background-color: #911e24;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.coolbutton1 a, .coolbutton2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.coolbutton1:hover, .coolbutton2:hover {
+    background-color: #092747;
+}

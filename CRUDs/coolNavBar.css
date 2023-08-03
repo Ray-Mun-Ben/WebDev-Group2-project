@@ -1,0 +1,164 @@
+/* Reset default margin and padding for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for both horizontal and vertical navigation bars */
+.navbar {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    height: 50px;
+   
+}
+
+/* Styling for navigation bar links */
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px; /* Adjust the horizontal padding here */
+}
+
+/* Hover effect for navigation bar links */
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Styling for the horizontal navbar */
+.horizontal-navbar {
+    justify-content: flex-end; /* Right-align the contents */
+}
+
+/* Styling for the vertical navbar */
+.vertical-navbar {
+    background-color: #777;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    height: 100vh; /* Full viewport height */
+    width: 10%; /* Increase the width */
+    padding-top: 50px; /* Space for the horizontal navbar */
+}
+
+/* Create spacing between the vertical navbar and the horizontal navbar */
+.vertical-navbar + .navbar {
+    margin-top: 100px;
+}
+
+/* Additional styling for the user icon link */
+.user-icon-link {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%; /* Create a circular shape */
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Hover effect for the user icon link */
+.user-icon-link:hover {
+    background-color: #555;
+}
+
+/* Custom styling for the main heading */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Custom styling for the cart section */
+.cart {
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Custom styling for the cart items list */
+#cartItems {
+    list-style: none;
+    padding: 0;
+}
+
+/* Custom styling for the total price element */
+#totalPrice {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Custom styling for the submit button */
+.coolbtn {
+    background-color: #911e24;
+    color: #f0f0f0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.coolbtn:hover {
+    background-color: #092747;
+}
+/* Styling for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #a84f4f;
+    border-radius: 8px;
+}
+
+/* Styling for table headings */
+.table th {
+   background-color: #5c0f0f;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Styling for table cells */
+.table td {
+    padding: 10px;
+}
+
+/* Styling for even table rows */
+.table tr:nth-child(even) {
+    background-color: #bbbbbb;
+}
+
+/* Styling for odd table rows */
+.table tr:nth-child(odd) {
+    background-color: #e8e8e8;
+}
+
+/* Styling for table row hover effect */
+.table tr:hover {
+    background-color: #ddd;
+}
+
+/* Styling for the cart section */
+.cart {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #b32222;
+    border-radius: 8px;
+}
+
+/* Styling for the cart items list */
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Styling for the cart item */
+.cart li {
+    padding: 5px;
+}
+
+/* Styling for the total price */
+#totalPrice {
+    font-weight: bold;
+}
+
+

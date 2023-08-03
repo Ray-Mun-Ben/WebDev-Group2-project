@@ -1,0 +1,28 @@
+/* style.css */
+
+/* Add some basic styling for the navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    margin-top: 60px; /* Add some margin to create space below the fixed navbar */
+}

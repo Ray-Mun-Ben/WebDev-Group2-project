@@ -1,0 +1,29 @@
+/*=================COOL BTN FOR THE TRIAL CRUD STUFF==========================*/
+.coolbtn,
+.coolbtn a {
+    color: #f0f0f0;
+    text-decoration: none;
+    background-color: #911e24;
+}
+
+.coolbtn:hover {
+    background-color: #092747;
+}
+
+.coolbtn.coolbutton1 {
+    background-color: #35ee3f;
+}
+
+.coolbtn.coolbutton2 {
+    background-color: #d43333;
+}
+
+.coolbtn.coolbutton1:hover {
+    background-color: #0c4d24;
+}
+
+.coolbtn.coolbutton2:hover {
+    background-color: #550d0d;
+}
+/*===========================================================================*/
+
